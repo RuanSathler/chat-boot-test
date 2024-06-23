@@ -15,6 +15,10 @@ nlu:
     - Quero uma pizza, por favor
     - Pode me ajudar a pedir uma pizza?
     - Como faço para pedir uma pizza aqui?
+    - quero fazer um pedido
+    - fazer um pedido
+    - pedir pizza
+    - uma pizza
 
 - intent: especificar_pizza
   examples: |
@@ -22,6 +26,10 @@ nlu:
     - Uma pizza de [mussarela](sabor), por favor
     - Pode ser de [quatro queijos](sabor)
     - Eu gostaria de uma pizza de [pepperoni](sabor)
+    - [4 queijos](sabor)
+    - (chocolate](sabor)
+    - [romeu e julieta](sabor)
+    - [frango](sabor)
 
 - intent: informar_endereco
   examples: |
@@ -29,6 +37,8 @@ nlu:
     - Entregar em [Av. Paulista, 999](endereco)
     - Meu endereço é [Praça da Sé, 45](endereco)
     - [Alameda Santos, 1010](endereco), por favor
+    - [rua 39, numero 28](endereco)
+    - [rua roberto carlos, n 38](endereco)
 
 - intent: confirmar_pedido
   examples: |
