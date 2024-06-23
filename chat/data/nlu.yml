@@ -27,7 +27,7 @@ nlu:
     - Pode ser de [quatro queijos](sabor)
     - Eu gostaria de uma pizza de [pepperoni](sabor)
     - [4 queijos](sabor)
-    - (chocolate](sabor)
+    - [chocolate](sabor)
     - [romeu e julieta](sabor)
     - [frango](sabor)
 
